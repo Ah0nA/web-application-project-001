@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    transition: background-color 0.1s; /* Add transition for smooth color change */
+}
+
+.container {
+    text-align: center;
+}
+
+#meme-container {
+    margin-bottom: 20px;
+}
+h4 {
+    color: blue; /* Set text color to blue */
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Center the image */
+}
+
+.option {
+    font-size: 12px;
+    margin: 5px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.correct {
+    background-color: green;
+}
+
+.wrong {
+    background-color: red;
+}
+
+.pink-background {
+    background-color: #ffd1dc; /* Set background color to baby pink */
+}

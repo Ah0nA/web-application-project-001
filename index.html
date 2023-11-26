@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Caption Meme Generator Game</title>
+</head>
+<body>
+    
+    <div class="container">
+        <h4 id="meme-text" class="blue-text">Caption the Meme!</h4>
+        <div id="meme-container">
+            <!-- Meme image will be displayed here -->
+        </div>
+        <div id="options-container">
+            <button class="option" onclick="checkAnswer(0)">Option 1</button>
+            <button class="option" onclick="checkAnswer(1)">Option 2</button>
+        </div>
+        <button onclick="generateMeme()">Next Meme</button>
+    </div>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
